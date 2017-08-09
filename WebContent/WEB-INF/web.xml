@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  
+  <display-name>ServletExamplesApp</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>com.test.servlet.HelloWorldServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/HelloWorldServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <servlet-class>com.test.servlet.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <url-pattern>/EmployeeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GetHTTPHeaderDetailsServlet</servlet-name>
+    <servlet-class>com.test.servlet.GetHTTPHeaderDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetHTTPHeaderDetailsServlet</servlet-name>
+    <url-pattern>/GetHTTPHeaderDetailsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RefreshServlet</servlet-name>
+    <servlet-class>com.test.servlet.RefreshServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RefreshServlet</servlet-name>
+    <url-pattern>/RefreshServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GetRefreshedEmpDetailsServlet</servlet-name>
+    <servlet-class>com.test.servlet.GetRefreshedEmpDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetRefreshedEmpDetailsServlet</servlet-name>
+    <url-pattern>/GetRefreshedEmpDetailsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ShowErrorServlet</servlet-name>
+    <servlet-class>com.test.servlet.ShowErrorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowErrorServlet</servlet-name>
+    <url-pattern>/ShowErrorServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CookieFormServlet</servlet-name>
+    <servlet-class>com.test.servlet.CookieFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieFormServlet</servlet-name>
+    <url-pattern>/CookieFormServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ReadCookiesServlet</servlet-name>
+    <servlet-class>com.test.servlet.ReadCookiesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadCookiesServlet</servlet-name>
+    <url-pattern>/ReadCookiesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteCookiesServlet</servlet-name>
+    <servlet-class>com.test.servlet.DeleteCookiesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteCookiesServlet</servlet-name>
+    <url-pattern>/DeleteCookiesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SessionTrackServlet</servlet-name>
+    <servlet-class>com.test.servlet.SessionTrackServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionTrackServlet</servlet-name>
+    <url-pattern>/SessionTrackServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>com.test.servlet.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ForwardAndRedirectServlet</servlet-name>
+    <servlet-class>com.test.servlet.ForwardAndRedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ForwardAndRedirectServlet</servlet-name>
+    <url-pattern>/ForwardAndRedirectServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ServletConfigServlet</servlet-name>
+    <servlet-class>com.test.servlet.ServletConfigServlet</servlet-class>
+    <init-param>
+      <param-name>driver</param-name>
+      <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+    </init-param>
+    <init-param>
+      <param-name>user-name</param-name>
+      <param-value>root</param-value>
+    </init-param>
+    <init-param>
+      <param-name>password</param-name>
+      <param-value>password</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletConfigServlet</servlet-name>
+    <url-pattern>/ServletConfigServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>WelcomeToForwardServlet</servlet-name>
+    <servlet-class>com.test.servlet.WelcomeToForwardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WelcomeToForwardServlet</servlet-name>
+    <url-pattern>/WelcomeToForwardServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>WelcomeToRedirectServlet</servlet-name>
+    <servlet-class>com.test.servlet.WelcomeToRedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WelcomeToRedirectServlet</servlet-name>
+    <url-pattern>/WelcomeToRedirectServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PageHitCounterServlet</servlet-name>
+    <servlet-class>com.test.servlet.PageHitCounterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PageHitCounterServlet</servlet-name>
+    <url-pattern>/PageHitCounterServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SendEmailServlet</servlet-name>
+    <servlet-class>com.test.servlet.SendEmailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendEmailServlet</servlet-name>
+    <url-pattern>/SendEmailServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SendEmailInHTMLServlet</servlet-name>
+    <servlet-class>com.test.servlet.SendEmailInHTMLServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendEmailInHTMLServlet</servlet-name>
+    <url-pattern>/SendEmailInHTMLServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SendEmailWithAttachmentServlet</servlet-name>
+    <servlet-class>com.test.servlet.SendEmailWithAttachmentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendEmailWithAttachmentServlet</servlet-name>
+    <url-pattern>/SendEmailWithAttachmentServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MyErrorHandlerServlet</servlet-name>
+    <servlet-class>com.test.servlet.MyErrorHandlerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyErrorHandlerServlet</servlet-name>
+    <url-pattern>/MyErrorHandlerServlet</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+    <filter-name>LogFilter</filter-name>
+    <filter-class>com.test.servlet.LogFilter</filter-class>
+    <init-param>
+      <param-name>test-param</param-name>
+      <param-value>Initialization Paramter</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>LogFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <error-page>
+    <error-code>404</error-code>
+    <location>/MyErrorHandlerServlet</location>
+  </error-page>
+  <error-page>
+    <error-code>403</error-code>
+    <location>/MyErrorHandlerServlet</location>
+  </error-page>
+  <error-page>
+    <exception-type>
+	          javax.servlet.ServletException
+	    </exception-type>
+    <location>/MyErrorHandlerServlet</location>
+  </error-page>
+  <error-page>
+    <exception-type>java.io.IOException</exception-type>
+    <location>/MyErrorHandlerServlet</location>
+  </error-page>
+  <error-page>
+    <exception-type>java.lang.Throwable</exception-type>
+    <location>/MyErrorHandlerServlet</location>
+  </error-page>
+  <error-page>
+    <exception-type>javax.mail.MessagingException</exception-type>
+    <location>/MyErrorHandlerServlet</location>
+  </error-page>
+  <session-config>
+    <session-timeout>1</session-timeout>
+  </session-config>
+  <context-param>
+    <description>Location to store uploaded file</description>
+    <param-name>file-upload</param-name>
+    <param-value>
+         /Users/rahamathullahrahamathullah/Documents/workspace/ServletExamplesApp/WebContent/fileupload/
+      </param-value>
+  </context-param>
+</web-app>

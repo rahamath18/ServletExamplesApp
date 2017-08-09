@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <form action="EmployeeServlet" method="POST">
+         First Name: <input type="text" name="firstName">
+         <br/>
+         Last Name: <input type="text" name="lastName" />
+          <br/>
+         <input type="checkbox" name="maths" checked="checked" /> Maths
+         <input type="checkbox" name="physics"  /> Physics
+         <input type="checkbox" name="chemistry" checked="checked" /> Chem
+          <br/>
+         <input type="submit" value="Submit" />
+      </form>
+      
+      <script>
+	      document.write("<br><br>" + "Read cookie");
+	      var c = document.cookie;
+	      //document.write("<br>" + typeof c); // string
+	     // document.write("<br>" + "Cookie of this page: " + c);
+	      var carr = c.split(";");
+	      for(var i=0; i < carr.length; i++) {
+			document.write("<br>" + carr[i]);
+		  }
+	      
+		  document.write("<br><br>" + "Read header");
+
+	      var req = new XMLHttpRequest();
+	      req.open('GET', document.location, false);
+	      req.send(null);
+	      var headers = req.getAllResponseHeaders().toLowerCase();
+		 // document.write("<br>" + headers);
+	      var headersArr = headers.split(",");
+	      for(var i=0; i < headersArr.length; i++) {
+			document.write("<br>" + headersArr[i]);
+		  }
+	      
+	      //document.write("<br" + cacheJS.get({blogId: 1,type: 'view'}));
+      </script>
+      
+   </body>
+</html>

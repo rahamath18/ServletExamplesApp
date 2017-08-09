@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20170616T053000Z
+DTEND:20170616T063000Z
+DTSTAMP:20170613T105731Z
+ORGANIZER;CN=Raghavendra Urs N:mailto:raghavendra.n@antlycorp.com
+UID:2iafk73rqb492coo2m9clo7rfs@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=arun.g@antlycorp.com;X-NUM-GUESTS=0:mailto:arun.g@antlycorp.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Raghavendra Urs N;X-NUM-GUESTS=0:mailto:raghavendra.n@antlycorp.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Taniya Ghosal;X-NUM-GUESTS=0:mailto:taniya.g@antlycorp.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=rahamath18@yahoo.com;X-NUM-GUESTS=0:mailto:rahamath18@yahoo.com
+CREATED:20170613T105730Z
+DESCRIPTION:Hi Arun\,\n\nMr. Rahamathullah has confirmed his availability f
+ or F2F on  16 June 2017 i.e.\, on Friday. \nTime: 10.00 AM IST\n\nInterview
+  Coordinator:  Raghav / Taniya\n\nKindly confirm.\n\nThanks & regards\nRagh
+ av\nView your event at https://www.google.com/calendar/event?action=VIEW&ei
+ d=MmlhZms3M3JxYjQ5MmNvbzJtOWNsbzdyZnMgcmFoYW1hdGgxOEB5YWhvby5jb20&tok=Mjcjc
+ mFnaGF2ZW5kcmEubkBhbnRseWNvcnAuY29tNTJiMjcxZjdhZTZhMWFhMmM1YmFhNDY5ZGQzMTA2
+ MGM5MzQ3OTBhMg&ctz=Asia/Calcutta&hl=en.
+LAST-MODIFIED:20170613T105730Z
+LOCATION:Antly\, GRAND Site #444\, 1 Cross 5th Sector-06\, Bangalore 560102
+ \, 5th Main Rd\, HSR Layout\, Bengaluru\, Karnataka\, India map
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F2F with Mr. Rahamathullah - JAVA Developer
+TRANSP:OPAQUE
+ATTACH;FILENAME=Rahamathullah - JAVA Developer.docx:https://drive.google.co
+ m/a/antlycorp.com/file/d/0B7e04LXHDn03YWxCejNUeTZLLUE/view?usp=drive_web
+END:VEVENT
+END:VCALENDAR
